@@ -1,0 +1,37 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+}
+/* App.css */
+.custom-btn {
+  background-color: #ff0022; /* Orange background color */
+  color: #d31010; /* White text color */
+  border: none; /* Remove border, if needed */
+}
+
+.custom-btn:hover {
+  background-color: #ff007b; /* Darker orange background color on hover */
+}
+
+.custom-size {
+  font-size: 1.25rem; /* Exemple de taille personnalisée */
+  padding: 6rem; /* Exemple de padding personnalisé */
+}
+
+.custom-padding {
+  padding-top: 3rem;    /* Padding haut */
+  padding-bottom: 3rem; /* Padding bas */
+  padding-left: 6rem;   /* Padding gauche */
+  padding-right: 6rem;  /* Padding droite */
+}
